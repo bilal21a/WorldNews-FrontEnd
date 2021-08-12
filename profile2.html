@@ -24,10 +24,25 @@
             <div class="col-sm-6">
                 <div class="section1">
                             <h4>Account settings</h4>
-                            <b>dotorjon4412@gmail,com</b>
+                            <b>doctorjon4412@gmail.com</b>
                             <a class="text-danger" href=""> ! Unverified</a>
                                 <br>
                             <a class="link-fx text-success" href="">Change email</a>
+
+                                <h4>Enter a new Email address</h4>
+                                <div class="row">
+                                    <div class="col-md-8">                                   
+                                        <input type="email" class="form-control" id="example-email-input" name="example-email-input" placeholder="Emai Input">                                 
+                                    </div> 
+                                   
+                                    <div class="col-md-4">
+                                        <button type="button" class="btn btn-success">Save</button>
+                                        <button type="button" class="btn btn-light">Cancel  </button>
+                                     </div>
+                                
+                                </div> <br>                        
+
+
                             <p>Use this email to sign in. This is also where we'll send email communication and newsletters.</p>
 
                             <h4>Ways to sign in</h4>
@@ -43,6 +58,32 @@
                             <i class="fa fa-circle dot"></i>
                         </span>
                         <a class="link-fx text-success" href="">Change Password</a>
+
+                        <div class="password" style="width: 90%;">
+                            <div class="form-group">
+                                <label for="val-password">Current Password <span class="text-danger">*</span></label>
+                                <input type="password" class="form-control" id="val-password" name="val-password" placeholder="Enter your current password">
+                            </div>
+                            <div class="form-group">
+                                <label for="val-password">New Password<span class="text-danger">*</span></label>
+                                <input type="password" class="form-control" id="val-password" name="val-password" placeholder="Enter your new password">
+                            </div>
+                            <div class="form-group">
+                                <label for="val-confirm-password">Confirm New Password <span class="text-danger">*</span></label>
+                                <input type="password" class="form-control" id="val-confirm-password" name="val-confirm-password" placeholder="Confirm your new password">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-8">
+
+                            </div>
+                            <div class="col-sm-4">
+                                <button type="button" class="btn btn-success">Save</button>
+                                <button type="button" class="btn btn-light">Cancel  </button>
+                            </div>
+                        </div>
+
                 </div>
                 <div class="section2">
                     <h4>Your Recent Comments</h4>
@@ -51,10 +92,55 @@
             </div>
 
             
+            <!-- Section 2 Start     -->
             <div class="col-sm-6">
 
-            </div>
+                <h4>Profile settings</h4> 
+                <!-- <img class="img-avatar" src="assets/media/avatars/avatar4.jpg" alt=""> -->
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img class="img-avatar ml-2" src="https://dw3i9sxi97owk.cloudfront.net/homepage/user_stories/santamaria/santamaria-avatar_96x96.webp" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        <button type="button" class="btn btn-success btn-photo"   >Add Photo</button>             
+
+                    </div>
+                </div>
+
+                <p>Upload or change your photo. Acceptable file types are .jpeg, .jpg or .png. All photos will be reduced to 50 x 50 pixels. If you already have a photo, uploading a new photo will overwrite your existing one.</p>
+                    <!-- <label>Bootstrap’s Custom File Input</label> -->
+                    <div class="custom-file">
+                        <!-- Populating custom file input label with the selected filename (data-toggle="custom-file-input" is initialized in Helpers.coreBootstrapCustomFileInput()) -->
+                        <input type="file" class="custom-file-input" data-toggle="custom-file-input" id="example-file-input-custom" name="example-file-input-custom">
+                        <label class="custom-file-label" for="example-file-input-custom">Choose file</label>
+                    </div>
+
+                    <div class="upload-photo">
+                        <button type="button" class="btn btn-success">Upload</button>
+                        <button type="button" class="btn btn-light">Cancel  </button>
+
+                    </div>
+                    
+                    <div class="name">
+                        <div class="form-group">
+                            <label for="example-text-input">First Name</label>
+                            <input type="text" class="form-control" id="example-text-input" name="example-text-input" placeholder="Text Input">
+                        </div>
+                        <div class="form-group">
+                            <label for="example-text-input">Last Name</label>
+                            <input type="text" class="form-control" id="example-text-input" name="example-text-input" placeholder="Text Input">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <button type="button" class="btn btn-success" style="float: right">Save Changes</button>
+                    </div>
+
+                </div>
+
+
         </div>
+    </div>
     </div>
 
 
@@ -79,5 +165,9 @@
 
         <!-- Page JS Code -->
         <script src="assets/js/pages/be_pages_dashboard.min.js"></script>
+
+        <!-- Validation -->
+        <script src="assets/js/plugins/jquery-validation/jquery.validate.min.js"></script>
+        <script src="assets/js/plugins/jquery-validation/additional-methods.js"></script>
     </body>
 </html>
