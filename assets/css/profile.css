@@ -30,3 +30,13 @@
 .section-3{
     padding-top: 23px;
 }
+
+#change_email_div{
+    display: none;
+}
+#change_pass_div{
+    display: none;
+}
+#change_setting_div{
+    display: none;
+}
