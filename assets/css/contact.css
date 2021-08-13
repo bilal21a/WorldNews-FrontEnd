@@ -140,8 +140,8 @@ textarea.input {
 
 .btn {
     padding: 0.6rem 1.3rem;
-    background-color: #fff;
-    border: 2px solid #fafafa;
+    /* background-color: #fff; */
+    /* border: 2px solid #fafafa; */
     font-size: 0.95rem;
     color: #1abc9c;
     line-height: 1;
@@ -153,8 +153,10 @@ textarea.input {
 }
 
 .btn:hover {
-    background-color: transparent;
-    color: #fff
+    /* background-color: transparent; */
+    color: #1abc9c;
+
+    /* color: #fff */
 }
 
 .social-input-containers span {
