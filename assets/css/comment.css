@@ -7,7 +7,8 @@ body {
 }
 /* here is change */
 .comment-text {
-    font-size: 14px
+    font-size: 14px;
+    margin-bottom: 0px !important;
 }
 
 .fs-12 {
