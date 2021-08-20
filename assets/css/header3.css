@@ -43,7 +43,9 @@ body {
 }
 
 .menu-items li a:hover {
-  background-color: #4BB543;
+  background-color: #38ab69;
+  border-color: #34a263;
+  color: #ffffff;
 }
 
 /* nav menu button */
