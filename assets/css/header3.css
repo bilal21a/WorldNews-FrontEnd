@@ -43,7 +43,7 @@ body {
 }
 
 .menu-items li a:hover {
-  background-color: #ccc7d3;
+  background-color: #4BB543;
 }
 
 /* nav menu button */
@@ -127,7 +127,7 @@ body {
 }
 
 .section p {
-  color: #5a4d70;
+  color: #5a4d70;        /* content color*/
   padding-right: 1rem;
 }
 
@@ -189,6 +189,7 @@ body {
   .menu-btn {
     display: flex;
   }
+        /* hamburger work start */
   .menu-items {
     flex-direction: column;
     justify-content: space-around;
@@ -198,7 +199,8 @@ body {
     left: 0;
     height: 100vh;
     transform: translateX(100vw);
-    background-color: #5a4d70;
+    /* background-color: #5a4d70; */
+    background-color: #14a800;
     transition: transform 0.3s ease-in-out;
   }
   .menu-items.open {
