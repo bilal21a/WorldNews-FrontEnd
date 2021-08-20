@@ -202,7 +202,7 @@ body {
     height: 100vh;
     transform: translateX(100vw);
     /* background-color: #5a4d70; */
-    background-color: #14a800;
+    background-color: #ffffff;
     transition: transform 0.3s ease-in-out;
   }
   .menu-items.open {
@@ -222,6 +222,8 @@ body {
     height: 100%;
   }
   .menu-items li a:hover {
-    color: #111111;
+    background-color: #38ab69;
+  border-color: #34a263;
+  color: #111111;
   }
 }
