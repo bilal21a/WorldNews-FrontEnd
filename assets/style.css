@@ -45,7 +45,9 @@ nav .wrapper{
   transition: all 0.3s ease;
 }
 .nav-links li a:hover{
-  background: #3A3B3C;
+  /* background: #3A3B3C; */
+  background-color: #38ab69;
+  border-color: #34a263;
 }
 .nav-links .mobile-item{
   display: none;
@@ -210,7 +212,9 @@ nav .wrapper{
     transition: all 0.3s ease;
   }
   .nav-links .mobile-item:hover{
-    background: #3A3B3C;
+    /* background: #3A3B3C; */
+    background-color: #38ab69;
+    border-color: #34a263;
   }
   .drop-menu li{
     margin: 0;
