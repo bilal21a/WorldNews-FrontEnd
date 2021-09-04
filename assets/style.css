@@ -149,6 +149,16 @@
   display: none !important;
 }
 
+.btn-work{
+  height: 42px !important;
+  color: #F2F2E5 !important;
+  background-color: #242526 !important;
+}
+
+.btn-work:hover{
+  background-color: #38AB69 !important;
+}
+
 .bg-primary {
   background-color: #242526!important;
 }
