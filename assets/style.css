@@ -5,6 +5,12 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+.logo1{
+  display: block !important;
+}
+.logo2{
+  display: none !important;
+}
 .nv{
   position: fixed;
   z-index: 99;
@@ -22,6 +28,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.heightwork{
+  height: 37px !important;
 }
 .wrapper .logo a{
   color: #f2f2f2;
@@ -124,20 +133,36 @@
 .row .mega-links li a:hover{
   color: #f2f2f2;
 }
-.wrapper .btn{
+.wrapper .stylework{
   color: #fff;
   font-size: 20px;
   cursor: pointer;
   display: none;
 }
-.wrapper .btn.close-btn{
+.wrapper .stylework.close-btn{
   position: absolute;
   right: 30px;
   top: 10px;
 }
 
+.showdet2{
+  display: none !important;
+}
+
+@media screen and (max-width: 415px) {
+  #menu-btn:checked ~ .showdet2{
+    display: none !important;
+  }
+}
+
 @media screen and (max-width: 970px) {
-  .wrapper .btn{
+  .logo1{
+    display: none !important;
+  }
+  .logo2{
+    display: block !important;
+  }
+  .wrapper .stylework{
     display: block;
   }
   .wrapper .nav-links{
@@ -155,6 +180,12 @@
     box-shadow: 0px 15px 15px rgba(0,0,0,0.18);
     transition: all 0.3s ease;
   }
+  .showdet{
+    display: none !important;
+  }
+  .showdet2{
+    display: block !important;
+  }
   /* custom scroll bar */
   ::-webkit-scrollbar {
     width: 10px;
@@ -168,10 +199,11 @@
   #menu-btn:checked ~ .nav-links{
     left: 0%;
   }
-  #menu-btn:checked ~ .btn.menu-btn{
-    display: none;
+  #menu-btn:checked ~ .stylework.menu-btn{
+    display: block;
   }
-  #close-btn:checked ~ .btn.menu-btn{
+  
+  #close-btn:checked ~ .stylework.menu-btn{
     display: block;
   }
   .nav-links li{
