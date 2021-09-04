@@ -149,6 +149,10 @@
   display: none !important;
 }
 
+.bg-primary {
+  background-color: #242526!important;
+}
+
 @media screen and (max-width: 415px) {
   #menu-btn:checked ~ .showdet2{
     display: none !important;
