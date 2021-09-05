@@ -15,9 +15,9 @@
   position: fixed;
   z-index: 99;
   width: 100%;
-  
   background: #242526;
 }
+
 .nv .wrapper{
   position: relative;
   max-width: 1300px;
