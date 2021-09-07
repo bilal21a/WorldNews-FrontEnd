@@ -17,7 +17,42 @@
   width: 100%;
   background: #242526;
 }
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  text-align: center;
+}
 
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+.sm-logo-work{
+  width: 40px;
+  height: 22px;
+}
+.search-work{
+  border: 1px solid grey; 
+  height: 30px; 
+  border-radius: 5px; 
+  border-right: none;
+}
+.searchbtn-work{
+  width: 30px; 
+  color: white; 
+  border-left: none; 
+  height: 30px; 
+  border-radius: 5px; 
+  border: 1px solid grey;
+}
 .nv .wrapper{
   position: relative;
   max-width: 1300px;
